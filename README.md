@@ -14,9 +14,7 @@ gem install zinbei himekuri
 
 ```
 
-※ Go言語でRubyShellを管理できるまで、進んでいきます。
-
-[ 現在の出力結果 ]
+kaminarigumo.go
 
 ```markdown
 
@@ -36,5 +34,20 @@ gem install zinbei himekuri
 
 
 -------------------------------------------------------
+
+```
+
+poisonspider.go
+
+```markdown
+
+今日は、日曜日です。
+時刻を表示:2020年01月19日 13時05分15秒
+
+来年の1月1日まであと: 347 日です
+
+令和2年1月19日 : R02.01.19
+
+日めくりの数え番号 : 0.1.3.alpha.1
 
 ```
