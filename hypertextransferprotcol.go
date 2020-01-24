@@ -17,7 +17,9 @@ func main() {
 			os.Exit(1)
 		}
 
+		fmt.Printf("\n")
 		fmt.Println("status", response.Status)
+		fmt.Printf("\n")
 
 		body, err := ioutil.ReadAll(response.Body)
 
