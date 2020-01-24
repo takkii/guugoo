@@ -10,7 +10,7 @@ import (
 
 func main() {
 	go func() {
-		response, err := http.Get("http://standb.herokuapp.com")
+		response, err := http.Get("https://standb.herokuapp.com")
 
 		if err != nil {
 			fmt.Println(err)
