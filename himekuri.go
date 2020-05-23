@@ -29,7 +29,7 @@ func main() {
 		fmt.Printf("-------------------------------------------------------\n")
 		fmt.Printf("\n")
 		//cmd := exec.Command("go", "version")
-		cmd := exec.Command("java", "-jar" ,"himekuri_java-1.0-SNAPSHOT.jar")
+		cmd := exec.Command("java", "-jar", "himekuri_java-1.0-SNAPSHOT.jar")
 		result, err := cmd.Output()
 		if err != nil {
 			fmt.Println(err)
