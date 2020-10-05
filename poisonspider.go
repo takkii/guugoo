@@ -45,7 +45,7 @@ func main() {
 		}
 
 		//cmd := exec.Command("go", "version")
-		cmd := exec.Command("C:/Ruby26-x64/bin/zinbei", "-d")
+		cmd := exec.Command("zinbei", "-d")
 		result, err := cmd.Output()
 		if err != nil {
 			fmt.Println(err)
